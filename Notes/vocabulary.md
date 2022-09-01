@@ -1,0 +1,17 @@
+## Day 1
+- **fundamental**
+  - *[adjective]* 基础的
+  - We need to make fundamental changes to the way in which we treat our the environment
+- **paradigm**
+  - *[noun]* 范式、示例、模式
+  - Some of these eductors are hoping to produce a change in the current cultural paradigm.
+- **retrieve**
+  - *[verb]* 取回、找回、挽回
+  - We taught our dog to retrieve a ball
+- **concept**
+  - *[noun]* 原则、概念
+  - The concept of free speech is unknown to them.
+- **beget**
+  - *[verb]* 引导、导致、成为...的父亲
+  - Adam begat Cain and Abel. (亚当生了该隐和亚伯)
+  - Poverty begets hunger, and hunger begets crime
