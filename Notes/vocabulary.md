@@ -15,3 +15,41 @@
   - *[verb]* 引导、导致、成为...的父亲
   - Adam begat Cain and Abel. (亚当生了该隐和亚伯)
   - Poverty begets hunger, and hunger begets crime
+
+## DAY2
+- **self-evident**
+  - *[adjective]* 不证自明的、不言而喻的、显然的
+  - It is self-evident that I love you.
+- **distribute**
+  - *[verb]* 分布
+  - The books will be distributed free to local schools.
+- **distributed**
+  - *[adjective]* 分布式
+  - distributed systems.
+- **despite** 
+  - *[preposition]* 尽管、无论
+  - I still enjoyed the week despite the weather.
+- **interpret** 
+  - *[verb]* 解释、阐述、理解
+  - It's difficult to interprete these statistics without knowing how they were obtained
+- **interpreted** 
+  - *[adjective]* 解释型的
+  - Interpreted language.
+- **traditionally**
+  - *[adverb]* 传统上的
+  - Traditionally, the company's main markets have been Britain and the US.
+- **portable**
+  - *[adjective]* 便携的、轻便的
+  - A portalbe radio/phone/computer.
+- **nevertheless**
+  - *[adverb]* 不过、仍然、尽管如此
+  - I knew a lot about the subject already, but her talk was interesting nevertheless.
+- **sophisticated**
+  - *[adjective]* 老练的、精于世故的、见多识广的
+  - She was slim, svelte, and sophiticated.
+- **undergo**
+  - *[verb]* 经历、经受
+  - Marriage patterns have undergone an extraordinary change in the past 25 years or so.
+- **roughly**
+  - *[adverb]* 大致地、近似地
+  - There have been an increase of roughly 2.25 million.
