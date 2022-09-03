@@ -53,3 +53,11 @@
 - **roughly**
   - *[adverb]* 大致地、近似地
   - There have been an increase of roughly 2.25 million.
+
+## Day3
+- **persist**
+  - *[verb]* 坚持、保留、持续
+  - If the pain persists, consult a doctor.
+- **consult**
+  - *[verb]* 请教、咨询、查阅
+  - I'm not quite sure how to get there, I would better consult a map.
