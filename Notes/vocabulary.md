@@ -61,3 +61,14 @@
 - **consult**
   - *[verb]* 请教、咨询、查阅
   - I'm not quite sure how to get there, I would better consult a map.
+
+## Day4
+- **collectively**
+  - *[adverb]* 集体地、全体地、综合地
+  - She has a staff of four who collectively earn almost $200,000.
+- **represent**
+  - *[verb]* 表示、代表、向...抗议
+  - We represented our grievance/demands to the boss.
+- **grammatical**
+  - *[adjective]* 语法的、语法正确的
+  - The writer has used several complex grammatical constructions.

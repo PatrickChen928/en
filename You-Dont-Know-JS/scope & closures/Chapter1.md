@@ -31,5 +31,7 @@ In a traditional compiled-language process, a chunk of source code, your program
 
 - **分词/词法分析(Tokenizing/Lexing)**: 这个过程会将由字符组成的字符串分解成(对编程语言来说)有意义的代码块，这些代 码块被称为词法单元(token)。例如，考虑程序var a = 2;。这段程序通常会被分解成 为下面这些词法单元:var、a、=、2 、;。空格是否会被当作词法单元，取决于空格在 这门语言中是否具有意义。 
 - **Tokenizing/Lexing**: breaking up a string of characters into meaningful (to the language) chunks, called tokens. For instance, consider the program: `var a = 2;`. This program would likely be broken up into the following tokens: `var、a、=、2、;`. Wihtespace may or may not be persisted as a token, depending on whether it's meaningful or not.
-
-
+- **解析**： **将一个 token 的流（数组）转换为一个嵌套元素的树，它综合地表示了程序的语法结构。这棵树称为“抽象语法树”（AST —— Abstract Syntax Tree）。**
+**`var a = 2; `的树也许开始于称为 VariableDeclaration（变量声明）顶层节点，带有一个称为 Identifier（标识符）的子节点（它的值为 a），和另一个称为 AssignmentExpression（赋值表达式）的子节点，而这个子节点本身带有一个称为 NumericLiteral（数字字面量）的子节点（它的值为2）。**
+- **Parsing**: taking a stream (array) of tokens and turning it into a tree of nested elements, whitch collectively represent the grammatical structure of the program. This tree is called an "Abstract Syntax Tree"(AST).
+The tree for `var a = 2;` might start with a top-level node called VaribaleDeclaration,  with a child node called Identifier(whose value is a), and anthor child node called AssignmentExpression which itself has a child called NumbericLiteral (whose value is 2).
