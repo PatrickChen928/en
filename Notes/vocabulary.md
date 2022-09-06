@@ -72,3 +72,21 @@
 - **grammatical**
   - *[adjective]* 语法的、语法正确的
   - The writer has used several complex grammatical constructions.
+
+## Day5
+- **mire**
+  - *[noun]* 沼泽、泥潭、困境
+  - We must not be drawn into the mire of war.
+  - get mired in details. (深究细节)
+- **handwave**
+  - *[verb]* 不关注某个问题，不重要的事情
+- **instruction**
+  - *[noun]* 指令、指示、吩咐
+  - The police who brokn into the hourse were only acting on instructions.
+  - machine instructions (机器指令).
+- **reserve**
+  - *[verb]* 保留、把...专门留给、预定、预约
+  - I resreved a double room at the Shangrao Hotel.
+- **dig**
+  - *[verb]* 挖掘、打(洞)、凿出
+  - Digging in the garden is good exercise.
