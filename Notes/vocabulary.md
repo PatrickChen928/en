@@ -90,3 +90,23 @@
 - **dig**
   - *[verb]* 挖掘、打(洞)、凿出
   - Digging in the garden is good exercise.
+
+## Day6
+- **vastly**
+  - *[adverb]* 大大地
+  - vastly different
+  - vastly improved
+- **collapse**
+  - *[verb]* 崩溃、倒塌、折叠
+  - He collapsed and died of a heart attack.
+  - The chair collapsed under her weight.
+- **redundant**
+  - *[adjective]* 多余的、累赘的、啰嗦的、失业的、解雇的
+  - To keep the company alive, half the workforce is being made redundant. 
+  - You are redundant.
+- **broad**
+  - *[adjective]* 宽广的
+  - He flashed a broad grin at us.
+- **relevant**
+  - *[adjective]* 关联的、有关的、切题的、正确的、适宜的
+  - Education should be relevant to the child's needs.

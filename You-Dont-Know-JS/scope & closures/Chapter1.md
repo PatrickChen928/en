@@ -37,3 +37,9 @@ In a traditional compiled-language process, a chunk of source code, your program
 The tree for `var a = 2;` might start with a top-level node called VaribaleDeclaration,  with a child node called Identifier(whose value is a), and anthor child node called AssignmentExpression which itself has a child called NumbericLiteral (whose value is 2).
 - **代码生成： 这个处理将抽象语法树转换为可执行的代码。这一部分将根据语言，它的目标平台等因素有很大的不同。所以，与其深陷细节，我们不如笼统地说，有一种方法将我们上面描述的 `var a = 2;` 的抽象语法树转换为机器指令，来实际上 创建 一个称为 a 的变量（包括分配内存等等），然后在 a 中存入一个值。注意： 引擎如何管理系统资源的细节远比我们要挖掘的东西深刻，所以我们将理所当然地认为引擎有能力按其需要创建和存储变量。**
 - **Code-Generation**: the process of taking an AST and turning it into executable code.  This part varies greatly depending on the language, the platform it's targeting, etc. So, rather than get mired in details, we will just handwave and say that there is a way to take our above described AST for `var a = 2;` and turn it into a set of machine instructions to actually create a variable called a (including reserving memory, etc.), and then store a value into a. **Notice:** the details of how the engine manages system resources are deeper than what we will dig, so we will just take it for granted that the engine is able to create and store varibales as needed.
+
+**和大多数其他语言的编译器一样，JavaScript 引擎要比这区区三步复杂太多了。例如，在解析和代码生成的处理中，一定会存在优化执行效率的步骤，包括压缩冗余元素，等等。**  
+The JavaScript engine is vastly more complex than just those three steps, as are most other language compilers. For instance, in the process of parsing and code-generation, there are certainly steps to optimize the performance of the execution, including collapsing redundant elements, etc.
+
+**所以，我在此描绘的只是大框架。但是我想你很快就会明白为什么我们涵盖的这些细节是重要的，虽然是在很高的层次上。**  
+So, I'm painting only with broad strokes here. But I think you will see shortly why these details that we do cover,even at a high level, are relevant.
