@@ -110,3 +110,13 @@
 - **relevant**
   - *[adjective]* 关联的、有关的、切题的、正确的、适宜的
   - Education should be relevant to the child's needs.
+
+## Day7
+- **luxury**
+  - *[noun]* 奢华、奢侈、奢侈品
+  - to live in luxury
+  - I like to buy myself little luxuries from time to time.
+- **plenty**
+  - *[pronoun,noun,adverb]* 丰富、大量、充足
+  - plenty of time. 大量的时间
+  - Would you like some more wine? No thanks, I have had plenty.

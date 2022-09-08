@@ -43,3 +43,6 @@ The JavaScript engine is vastly more complex than just those three steps, as are
 
 **所以，我在此描绘的只是大框架。但是我想你很快就会明白为什么我们涵盖的这些细节是重要的，虽然是在很高的层次上。**  
 So, I'm painting only with broad strokes here. But I think you will see shortly why these details that we do cover,even at a high level, are relevant.
+
+**其一，JavaScript 引擎没有（像其他语言的编译器那样）大把的时间去优化，因为 JavaScript 的编译和其他语言不同，不是提前发生在一个构建的步骤中。**  
+For one thing, JavaScript engines don't get the luxury (like other language compilers) of having plenty of time to optimize, because JavaScript compilation dosen't happen in a build step ahead of time, as with other languages.
