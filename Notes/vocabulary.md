@@ -120,3 +120,15 @@
   - *[pronoun,noun,adverb]* 丰富、大量、充足
   - plenty of time. 大量的时间
   - Would you like some more wine? No thanks, I have had plenty.
+
+## Day8
+- **mere**
+  - *[adjective]* 只不过的、仅仅的
+  - mere microseconds 仅仅几毫秒
+  - It cost a mere 20 dollars.
+- **trick**
+  - *[noun]* 诡计、技巧、秘诀
+  - *[verb]* 哄骗
+  - *[adjective]* 捉弄的、戏剧的
+  - What's the trick to getting this chair to fold up.
+  - A trick question.

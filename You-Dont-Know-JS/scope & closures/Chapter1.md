@@ -33,7 +33,7 @@ In a traditional compiled-language process, a chunk of source code, your program
 - **Tokenizing/Lexing**: breaking up a string of characters into meaningful (to the language) chunks, called tokens. For instance, consider the program: `var a = 2;`. This program would likely be broken up into the following tokens: `var、a、=、2、;`. Wihtespace may or may not be persisted as a token, depending on whether it's meaningful or not.
 - **解析**： **将一个 token 的流（数组）转换为一个嵌套元素的树，它综合地表示了程序的语法结构。这棵树称为“抽象语法树”（AST —— Abstract Syntax Tree）。**
 **`var a = 2; `的树也许开始于称为 VariableDeclaration（变量声明）顶层节点，带有一个称为 Identifier（标识符）的子节点（它的值为 a），和另一个称为 AssignmentExpression（赋值表达式）的子节点，而这个子节点本身带有一个称为 NumericLiteral（数字字面量）的子节点（它的值为2）。**
-- **Parsing**: taking a stream (array) of tokens and turning it into a tree of nested elements, whitch collectively represent the grammatical structure of the program. This tree is called an "Abstract Syntax Tree"(AST).
+- **Parsing**: taking a stream (array) of tokens and turning it into a tree of nested elements, which collectively represent the grammatical structure of the program. This tree is called an "Abstract Syntax Tree"(AST).
 The tree for `var a = 2;` might start with a top-level node called VaribaleDeclaration,  with a child node called Identifier(whose value is a), and anthor child node called AssignmentExpression which itself has a child called NumbericLiteral (whose value is 2).
 - **代码生成： 这个处理将抽象语法树转换为可执行的代码。这一部分将根据语言，它的目标平台等因素有很大的不同。所以，与其深陷细节，我们不如笼统地说，有一种方法将我们上面描述的 `var a = 2;` 的抽象语法树转换为机器指令，来实际上 创建 一个称为 a 的变量（包括分配内存等等），然后在 a 中存入一个值。注意： 引擎如何管理系统资源的细节远比我们要挖掘的东西深刻，所以我们将理所当然地认为引擎有能力按其需要创建和存储变量。**
 - **Code-Generation**: the process of taking an AST and turning it into executable code.  This part varies greatly depending on the language, the platform it's targeting, etc. So, rather than get mired in details, we will just handwave and say that there is a way to take our above described AST for `var a = 2;` and turn it into a set of machine instructions to actually create a variable called a (including reserving memory, etc.), and then store a value into a. **Notice:** the details of how the engine manages system resources are deeper than what we will dig, so we will just take it for granted that the engine is able to create and store varibales as needed.
@@ -46,3 +46,6 @@ So, I'm painting only with broad strokes here. But I think you will see shortly 
 
 **其一，JavaScript 引擎没有（像其他语言的编译器那样）大把的时间去优化，因为 JavaScript 的编译和其他语言不同，不是提前发生在一个构建的步骤中。**  
 For one thing, JavaScript engines don't get the luxury (like other language compilers) of having plenty of time to optimize, because JavaScript compilation dosen't happen in a build step ahead of time, as with other languages.
+
+**对 JavaScript 来说，在许多情况下，编译发生在代码被执行前的仅仅几微秒之内（或更少！）。为了确保最快的性能，JS 引擎将使用所有的招数（比如 JIT，它可以懒编译甚至是热编译，等等），而这远超出了我们关于“作用域”的讨论。**  
+For JavaScript, the compilation that occurs happens, in many cases, mere microseconds(or less!) before the code is executed. To ensure the fastest performance,  JS engines use all kinds of tricks (like JITs, which  lazy compile and even for hot re-compile, etc.), which are well beyond the "scope" of our discussion here.

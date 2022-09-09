@@ -26,3 +26,5 @@ The JavaScript engine is vastly more complex than just those three steps, as are
 So, I'm painting only with broad strokes here. But I think you'll see shortly why these details we do cover, even at a high level, are relevant.
 
 For one thing, JavaScript engines don't get the luxury (like other language compilers) of having plenty of time to optimize, because JavaScript compilation doesn't happen in a build step ahead of time, as with other languages.
+
+For JavaScript, the compilation that occurs happens, in many cases, mere microseconds (or less!) before the code is executed. To ensure the fastest performance, JS engines use all kinds of tricks (like JITs, which lazy compile and even hot re-compile, etc.) which are well beyond the "scope" of our discussion here.
