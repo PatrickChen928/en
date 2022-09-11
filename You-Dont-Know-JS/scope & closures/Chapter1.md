@@ -49,3 +49,6 @@ For one thing, JavaScript engines don't get the luxury (like other language comp
 
 **对 JavaScript 来说，在许多情况下，编译发生在代码被执行前的仅仅几微秒之内（或更少！）。为了确保最快的性能，JS 引擎将使用所有的招数（比如 JIT，它可以懒编译甚至是热编译，等等），而这远超出了我们关于“作用域”的讨论。**  
 For JavaScript, the compilation that occurs happens, in many cases, mere microseconds(or less!) before the code is executed. To ensure the fastest performance,  JS engines use all kinds of tricks (like JITs, which  lazy compile and even for hot re-compile, etc.), which are well beyond the "scope" of our discussion here.
+
+**为了简单起见，我们可以说，任何 JavaScript 代码段在它执行之前（通常是 刚好 在它执行之前！）都必须被编译。所以，JS 编译器将把程序 `var a = 2; `拿过来，并首先编译它，然后准备运行它，通常是立即的。**  
+Let's just say, for simplicity's sake, that any snippet of JavaScript has to be compiled (usually right before!) before it's executed. So, JS compiler will take the program `var a = 2;` and compile it first, and then be ready to execute it, usually right away.

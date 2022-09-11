@@ -132,3 +132,14 @@
   - *[adjective]* 捉弄的、戏剧的
   - What's the trick to getting this chair to fold up.
   - A trick question.
+
+## Day9
+- **sake**
+  - *[noun]* 因为、为了
+  - for simplicity's sake. 为了简单起见(原因)
+- **right before**
+  - 就在、刚好在...之前
+  - I saw you turn into Joey right before my eyes. 我看你你就在我眼前变成了乔伊.
+- **right away**
+  - 立即、马上
+  - You should call me right away if you are sick.
