@@ -143,3 +143,15 @@
 - **right away**
   - 立即、马上
   - You should call me right away if you are sick.
+
+# Day10
+- **term**
+  - *[noun]*  期限、学期、合同期、预产期
+  - He served a short term for drunk driving. 
+- **in terms of**
+  - 就...而言、在...方面、从...角度
+  - Basically I think he would be someone who complemented me in terms of character.
+- **approach**
+  - *[verb]* 靠近、接近、处理、对付、接洽、要求
+  - *[noun]* 方法、态度
+  - We could just see the train approaching in the distance.

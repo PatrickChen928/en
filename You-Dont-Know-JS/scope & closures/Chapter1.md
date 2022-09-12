@@ -52,3 +52,7 @@ For JavaScript, the compilation that occurs happens, in many cases, mere microse
 
 **为了简单起见，我们可以说，任何 JavaScript 代码段在它执行之前（通常是 刚好 在它执行之前！）都必须被编译。所以，JS 编译器将把程序 `var a = 2; `拿过来，并首先编译它，然后准备运行它，通常是立即的。**  
 Let's just say, for simplicity's sake, that any snippet of JavaScript has to be compiled (usually right before!) before it's executed. So, JS compiler will take the program `var a = 2;` and compile it first, and then be ready to execute it, usually right away.
+
+## 理解作用域 (Understanding Scope)
+**我们将采用的学习作用域的方法，是将这个处理过程想象为一场对话。但是，谁 在进行这场对话呢？**  
+The way we will approach learning about scope is to think of the process in terms of a conversation. But, who is having the conversation?
