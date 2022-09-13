@@ -56,3 +56,7 @@ Let's just say, for simplicity's sake, that any snippet of JavaScript has to be 
 ## 理解作用域 (Understanding Scope)
 **我们将采用的学习作用域的方法，是将这个处理过程想象为一场对话。但是，谁 在进行这场对话呢？**  
 The way we will approach learning about scope is to think of the process in terms of a conversation. But, who is having the conversation?
+
+### 演员 (The Cast)
+**让我们见一见处理程序` var a = 2; `时进行互动的演员吧，这样我们就能理解稍后将要听到的它们的对话：**  
+Let us meet the cast of characters that interact to process the program ` var a = 2; `, so we understand their conversations that we will listen in on shortly:

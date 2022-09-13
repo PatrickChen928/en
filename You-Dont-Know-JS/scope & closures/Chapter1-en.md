@@ -33,3 +33,6 @@ Let's just say, for simplicity's sake, that any snippet of JavaScript has to be 
 
 ## Understanding Scope
 The way we will approach learning about scope is to think of the process in terms of a conversation. But, who is having the conversation?
+
+### The Cast
+Let's meet the cast of characters that interact to process the program `var a = 2;`, so we understand their conversations that we'll listen in on shortly:

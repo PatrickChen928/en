@@ -155,3 +155,13 @@
   - *[verb]* 靠近、接近、处理、对付、接洽、要求
   - *[noun]* 方法、态度
   - We could just see the train approaching in the distance.
+
+# Day11
+- **shortly**
+  - *[adverb]* 不久、很快、马上
+  - We will shortly being arriving in Kind's Cross Station.
+- **cast**
+  - *[noun]* 演员
+  - *[verb]* 扮演...角色、投射、把（光或阴影）投向、扔、投、抛、掷
+  - After the final performance the director threw a party for the cast.
+  - The knight cast the sword far out into the lake.
