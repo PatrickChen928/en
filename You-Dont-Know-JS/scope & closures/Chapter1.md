@@ -60,3 +60,6 @@ The way we will approach learning about scope is to think of the process in term
 ### 演员 (The Cast)
 **让我们见一见处理程序` var a = 2; `时进行互动的演员吧，这样我们就能理解稍后将要听到的它们的对话：**  
 Let us meet the cast of characters that interact to process the program ` var a = 2; `, so we understand their conversations that we will listen in on shortly:
+
+1. **引擎：负责从始至终的编译和执行我们的 JavaScript 程序。**  
+Engine: responsible for start-to-finish compilation and exectuion of our JavaScript program.

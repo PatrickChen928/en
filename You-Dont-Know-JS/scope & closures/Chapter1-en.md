@@ -36,3 +36,5 @@ The way we will approach learning about scope is to think of the process in term
 
 ### The Cast
 Let's meet the cast of characters that interact to process the program `var a = 2;`, so we understand their conversations that we'll listen in on shortly:
+
+1. Engine: responsible for start-to-finish compilation and execution of our JavaScript program.

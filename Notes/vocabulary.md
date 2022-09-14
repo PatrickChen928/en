@@ -165,3 +165,11 @@
   - *[verb]* 扮演...角色、投射、把（光或阴影）投向、扔、投、抛、掷
   - After the final performance the director threw a party for the cast.
   - The knight cast the sword far out into the lake.
+
+# Day12
+- **start-to-finish**
+  - *[phase]* 由始至终的
+  - He has been in charge of this form start-to-finish. 
+- **responsible**
+  - *[adjective]* 负责...、向...负责
+  - He is directly responsible for the efficient running of the office.
