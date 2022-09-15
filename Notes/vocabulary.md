@@ -168,8 +168,16 @@
 
 # Day12
 - **start-to-finish**
-  - *[phase]* 由始至终的
+  - *[phrase]* 由始至终的
   - He has been in charge of this form start-to-finish. 
 - **responsible**
   - *[adjective]* 负责...、向...负责
   - He is directly responsible for the efficient running of the office.
+
+# Day13
+- **dirty work**
+  - *[phrase]* 脏活累活
+  - An apron is a protection when doing dirty work.
+- **section**
+  - *[noun]* 部分、片段、切片、切口
+  - Does the restaurant have a non-smoking section?

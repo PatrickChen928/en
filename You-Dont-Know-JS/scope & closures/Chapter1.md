@@ -63,3 +63,5 @@ Let us meet the cast of characters that interact to process the program ` var a 
 
 1. **引擎：负责从始至终的编译和执行我们的 JavaScript 程序。**  
 Engine: responsible for start-to-finish compilation and exectuion of our JavaScript program.
+2. **编译器：引擎 的朋友之一；处理所有的解析和代码生成的重活儿（见前一节）。**  
+Compiler: one of Engine's friends; handles all the dirty work of parsing and code-generation (see previous section).
