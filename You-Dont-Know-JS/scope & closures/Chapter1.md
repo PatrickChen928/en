@@ -65,3 +65,5 @@ Let us meet the cast of characters that interact to process the program ` var a 
 Engine: responsible for start-to-finish compilation and exectuion of our JavaScript program.
 2. **编译器：引擎 的朋友之一；处理所有的解析和代码生成的重活儿（见前一节）。**  
 Compiler: one of Engine's friends; handles all the dirty work of parsing and code-generation (see previous section).
+3. **作用域：引擎 的另一个朋友；收集并维护一张所有被声明的标识符（变量）的列表，并对当前执行中的代码如何访问这些变量强制实施一组严格的规则。**  
+Scope: anohter friend of Engine; collects and maintains a look-up list of all the declared identifiers (variables), and enforces a strict set of rules as to how these are accessible to currently executing code.

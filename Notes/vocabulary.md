@@ -181,3 +181,8 @@
 - **section**
   - *[noun]* 部分、片段、切片、切口
   - Does the restaurant have a non-smoking section?
+
+# Day14
+- **enforce**
+  - *[verb]* (强制)实行、使服从
+  - It isn't always easy for the police to enforce speed limits.
