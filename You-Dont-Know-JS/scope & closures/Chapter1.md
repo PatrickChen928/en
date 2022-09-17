@@ -67,3 +67,6 @@ Engine: responsible for start-to-finish compilation and exectuion of our JavaScr
 Compiler: one of Engine's friends; handles all the dirty work of parsing and code-generation (see previous section).
 3. **作用域：引擎 的另一个朋友；收集并维护一张所有被声明的标识符（变量）的列表，并对当前执行中的代码如何访问这些变量强制实施一组严格的规则。**  
 Scope: anohter friend of Engine; collects and maintains a look-up list of all the declared identifiers (variables), and enforces a strict set of rules as to how these are accessible to currently executing code.
+
+**为了 全面理解 JavaScript 是如何工作的，你需要开始像 引擎（和它的朋友们）那样 思考，问它们问的问题，并像它们一样回答。**  
+For you to fully understand how JavaScript works, you need to begin to think like Engine (and friends), ask the questions they ask, and answer those questions the same.

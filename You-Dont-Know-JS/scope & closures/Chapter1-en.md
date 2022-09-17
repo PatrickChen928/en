@@ -40,3 +40,5 @@ Let's meet the cast of characters that interact to process the program `var a = 
 1. Engine: responsible for start-to-finish compilation and execution of our JavaScript program.
 2. Compiler: one of Engine's friends; handles all the dirty work of parsing and code-generation (see previous section).
 3. Scope: another friend of Engine; collects and maintains a look-up list of all the declared identifiers (variables), and enforces a strict set of rules as to how these are accessible to currently executing code.
+
+For you to fully understand how JavaScript works, you need to begin to think like Engine (and friends) think, ask the questions they ask, and answer those questions the same.
