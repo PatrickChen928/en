@@ -186,3 +186,10 @@
 - **enforce**
   - *[verb]* (强制)实行、使服从
   - It isn't always easy for the police to enforce speed limits.
+
+# Day16
+- **distinct**
+  - *[adjective]* 显著的、明显的、确实的
+  - *[adjective]* 明显不同的、差别明显的
+  - There is a distinct smell of cigarettes in here.
+  - The two concepts are quite distinct.

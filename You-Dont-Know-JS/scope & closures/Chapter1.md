@@ -70,3 +70,7 @@ Scope: anohter friend of Engine; collects and maintains a look-up list of all th
 
 **为了 全面理解 JavaScript 是如何工作的，你需要开始像 引擎（和它的朋友们）那样 思考，问它们问的问题，并像它们一样回答。**  
 For you to fully understand how JavaScript works, you need to begin to think like Engine (and friends), ask the questions they ask, and answer those questions the same.
+
+### 反复 (Back & Forth)
+**当你看到程序 var a = 2; 时，你很可能认为它是一个语句。但这不是我们的新朋友 引擎 所看到的。事实上，引擎 看到两个不同的语句，一个是 编译器 将在编译期间处理的，一个是 引擎 将在执行期间处理的。**  
+When you see the program `var a = 2;`, you most likely think of that as one statement. But that is not how our new friend Engine sees it. In fact, Engine sees two `distinct` statements, one which Compiler will handle during compilation, and one which Engine will handle during execution.
