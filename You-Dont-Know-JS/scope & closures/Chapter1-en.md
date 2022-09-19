@@ -45,3 +45,7 @@ For you to fully understand how JavaScript works, you need to begin to think lik
 
 ## Back & Forth
 When you see the program `var a = 2;`, you most likely think of that as one statement. But that's not how our new friend Engine sees it. In fact, Engine sees two distinct statements, one which Compiler will handle during compilation, and one which Engine will handle during execution.
+
+So, let's break down how Engine and friends will approach the program `var a = 2;`.
+
+The first thing Compiler will do with this program is perform lexing to break it down into tokens, which it will then parse into a tree. But when Compiler gets to code-generation, it will treat this program somewhat differently than perhaps assumed.

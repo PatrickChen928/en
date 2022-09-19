@@ -74,3 +74,9 @@ For you to fully understand how JavaScript works, you need to begin to think lik
 ### 反复 (Back & Forth)
 **当你看到程序 var a = 2; 时，你很可能认为它是一个语句。但这不是我们的新朋友 引擎 所看到的。事实上，引擎 看到两个不同的语句，一个是 编译器 将在编译期间处理的，一个是 引擎 将在执行期间处理的。**  
 When you see the program `var a = 2;`, you most likely think of that as one statement. But that is not how our new friend Engine sees it. In fact, Engine sees two `distinct` statements, one which Compiler will handle during compilation, and one which Engine will handle during execution.
+
+**那么，让我们来分析 引擎 和它的朋友们将如何处理程序 `var a = 2;`。**  
+So, let's `break down` how Engine and friends will approach the program `var a = 2;`.
+
+**编译器 将对这个程序做的第一件事情，是进行词法分析来将它分解为一系列 token，然后这些 token 被解析为一棵树。但是当 编译器 到了代码生成阶段时，它会以一种与我们可能想象的不同的方式来对待这段程序。**  
+The first thing Compiler will do with this program is perform lexing to break it down into tokens, which it will then parse into a tree. But when Compiler gets to code-generation, it will treat this program `somewhat` differently than perhaps `assumed`.

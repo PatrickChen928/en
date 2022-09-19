@@ -193,3 +193,15 @@
   - *[adjective]* 明显不同的、差别明显的
   - There is a distinct smell of cigarettes in here.
   - The two concepts are quite distinct.
+
+# Day17
+- **break down**
+  - *[phrase]* 分解、抛锚、
+  - Let's break down how you do this.
+  - Our car broke down and we had to push it off the road.
+- **assume**
+  - *[verb]* 假设、假定
+  - Let's assume that they are coming and making plans on that basis.
+- **somewhat**
+  - *[adverb]* 有点、稍微有些
+  - She's somewhat more confident than she used to be.
