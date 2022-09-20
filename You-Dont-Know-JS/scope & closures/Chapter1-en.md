@@ -49,3 +49,5 @@ When you see the program `var a = 2;`, you most likely think of that as one stat
 So, let's break down how Engine and friends will approach the program `var a = 2;`.
 
 The first thing Compiler will do with this program is perform lexing to break it down into tokens, which it will then parse into a tree. But when Compiler gets to code-generation, it will treat this program somewhat differently than perhaps assumed.
+
+A reasonable assumption would be that Compiler will produce code that could be summed up by this pseudo-code: "Allocate memory for a variable, label it a, then stick the value 2 into that variable." Unfortunately, that's not quite accurate.

@@ -80,3 +80,6 @@ So, let's `break down` how Engine and friends will approach the program `var a =
 
 **编译器 将对这个程序做的第一件事情，是进行词法分析来将它分解为一系列 token，然后这些 token 被解析为一棵树。但是当 编译器 到了代码生成阶段时，它会以一种与我们可能想象的不同的方式来对待这段程序。**  
 The first thing Compiler will do with this program is perform lexing to break it down into tokens, which it will then parse into a tree. But when Compiler gets to code-generation, it will treat this program `somewhat` differently than perhaps `assumed`.
+
+**一个合理的假设是，编译器 将产生的代码可以用这种假想代码概括：“为一个变量分配内存，将它标记为 a，然后将值 2 贴在这个变量里”。不幸的是，这不是十分准确。**  
+A reasonable assumption would be that Compiler will produce code that could be `summed up` by this `pseudo`-code: " `Allocate` memory for a variable, label it `a`, then stick the value 2 into that variable". Unfortunately, that's not quite `accurate`.

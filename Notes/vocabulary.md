@@ -205,3 +205,21 @@
 - **somewhat**
   - *[adverb]* 有点、稍微有些
   - She's somewhat more confident than she used to be.
+
+# Day18
+- **sum up**
+  - *[phrase]* 概括、总结
+  - He summed up his philosophy, with reference to Calvin.
+- **pseudo-code**
+  - *[phrase]* 伪代码
+- **allocate**
+  - *[verb]* 分配、划分、拨给
+  - The government is allocating $10 million for health education.
+- **allocate**
+  - *[verb]* 分配、划分、拨给
+  - The government is allocating $10 million for health education.
+- **accurate**
+  - *[adjective]* 精确的、准确的、正确的
+  - an accurate machine
+  - an accurate description
+  - The figures they have used are just not accurate.
