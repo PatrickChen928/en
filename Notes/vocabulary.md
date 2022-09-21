@@ -223,3 +223,13 @@
   - an accurate machine
   - an accurate description
   - The figures they have used are just not accurate.
+
+# Day19
+- **proceed**
+  - *[verb]* 继续进行、继续做
+  - His lawyers have decided not to proceed with the case.
+- **particular**
+  - *[adjective]* 特定的、具体的
+  - *[adjective]* 讲究的、挑剔的
+  - She wanted a particular type of cactus.
+  - She's very particular about what she eats.

@@ -83,3 +83,9 @@ The first thing Compiler will do with this program is perform lexing to break it
 
 **一个合理的假设是，编译器 将产生的代码可以用这种假想代码概括：“为一个变量分配内存，将它标记为 a，然后将值 2 贴在这个变量里”。不幸的是，这不是十分准确。**  
 A reasonable assumption would be that Compiler will produce code that could be `summed up` by this `pseudo`-code: " `Allocate` memory for a variable, label it `a`, then stick the value 2 into that variable". Unfortunately, that's not quite `accurate`.
+
+**编译器 将会这样处理：**  
+Compiler will instead `proceed` as: 
+
+1. **遇到 `var a`，编译器 让 作用域 去查看对于这个特定的作用域集合，变量 a 是否已经存在了。如果是，编译器 就忽略这个声明并继续前进。否则，编译器 就让 作用域 去为这个作用域集合声明一个称为 a 的新变量。**  
+Encountering `var a`, Compiler asks Scope to see if a variable a already exists for that `particular` scope collection. If so, Compiler ignores this declaration and moves on. Ohterwise, Compiler asks Scope to declare a new variable called a for that scope collection.
