@@ -233,3 +233,15 @@
   - *[adjective]* 讲究的、挑剔的
   - She wanted a particular type of cactus.
   - She's very particular about what she eats.
+
+# Day20
+- **assignment**
+  - *[noun]* 任务、作业、分配、指派
+  - a freelance assignment. (自由职业)
+  - assignment of the various tasks.
+- **nest**
+  - *[noun]*  巢、窝、一套对象、一组对象
+  - *[verb]*  筑巢，做窝；巢居
+  - nested *[adjective]* 嵌套的
+  - I would like a nest of tables for the living room. (我想在客厅里放一套桌子。)
+  - nested scope. (嵌套作用域)

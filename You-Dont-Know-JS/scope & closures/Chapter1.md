@@ -88,4 +88,6 @@ A reasonable assumption would be that Compiler will produce code that could be `
 Compiler will instead `proceed` as: 
 
 1. **遇到 `var a`，编译器 让 作用域 去查看对于这个特定的作用域集合，变量 a 是否已经存在了。如果是，编译器 就忽略这个声明并继续前进。否则，编译器 就让 作用域 去为这个作用域集合声明一个称为 a 的新变量。**  
-Encountering `var a`, Compiler asks Scope to see if a variable a already exists for that `particular` scope collection. If so, Compiler ignores this declaration and moves on. Ohterwise, Compiler asks Scope to declare a new variable called a for that scope collection.
+Encountering `var a`, Compiler asks Scope to see if a variable a already exists for that `particular` scope collection. If so, Compiler ignores this declaration and moves on. Ohterwise, Compiler asks Scope to declare a new variable called a for that scope collection.  
+2. **然后 编译器 为 引擎 生成稍后要执行的代码，来处理赋值 `a = 2`。引擎 运行的代码首先让 作用域 去查看在当前的作用域集合中是否有一个称为 `a` 的变量可以访问。如果有，引擎 就使用这个变量。如果没有，引擎 就查看 其他地方（参见下面的嵌套 作用域 一节）。**  
+Compiler then produces code for Engine to later execute, to handle the `a = 2` `assignment`. The code Engine runs will first ask Scope if there is a variable called a accessible in the current scope collection. If so, Engine uses that variable. If not, Engine looks elsewhere  (see `nested` Scope section below).
