@@ -245,3 +245,8 @@
   - nested *[adjective]* 嵌套的
   - I would like a nest of tables for the living room. (我想在客厅里放一套桌子。)
   - nested scope. (嵌套作用域)
+
+# Day21
+- **eventually**
+  - *[adverb]* (是过一段时间后)最终、终于
+  - Although she had been oil for a long time, it still came as a shork when she eventually died.
