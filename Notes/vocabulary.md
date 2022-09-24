@@ -250,3 +250,8 @@
 - **eventually**
   - *[adverb]* (是过一段时间后)最终、终于
   - Although she had been oil for a long time, it still came as a shork when she eventually died.
+
+# Day22
+- **summarize**
+  - *[verb]* 总结、概述、概括
+  - I'll just summarize the main points of the argument in a few words.

@@ -94,3 +94,6 @@ Compiler then produces code for Engine to later execute, to handle the `a = 2` `
 
 **如果 引擎 最终找到一个变量，它就将值 2 赋予它。如果没有，引擎 将会举起它的手并喊出一个错误！**  
 If Engine `eventually` finds a variable, it assigns the value 2 to it. If not, Engine will raise its hand and yell out a error!
+
+**总结来说：对于一个变量赋值，发生了两个不同的动作：第一，编译器 声明一个变量（如果先前没有在当前作用域中声明过），第二，当执行时，引擎 在 作用域 中查询这个变量并给它赋值，如果找到的话。**  
+To summarize: two distinct actions are taken for a varibale assignment: First, Compiler declares a variable (if not previously declared in current scope), and second, when executing, Engine looks up the varibale in scope and assigns to it, if found.
