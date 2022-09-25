@@ -255,3 +255,8 @@
 - **summarize**
   - *[verb]* 总结、概述、概括
   - I'll just summarize the main points of the argument in a few words.
+
+# Day23
+- **terminology**
+  - *[noun]* 术语
+  - scientific terminology. 科学术语

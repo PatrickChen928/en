@@ -97,3 +97,8 @@ If Engine `eventually` finds a variable, it assigns the value 2 to it. If not, E
 
 **总结来说：对于一个变量赋值，发生了两个不同的动作：第一，编译器 声明一个变量（如果先前没有在当前作用域中声明过），第二，当执行时，引擎 在 作用域 中查询这个变量并给它赋值，如果找到的话。**  
 To summarize: two distinct actions are taken for a varibale assignment: First, Compiler declares a variable (if not previously declared in current scope), and second, when executing, Engine looks up the varibale in scope and assigns to it, if found.
+
+## 编译器术语 (Compiler Speak)
+**为了继续更深入地理解，我们需要一点儿更多的编译器术语。**  
+We need a little bit more compiler `terminology` to 
+`proceed` further with understanding.
