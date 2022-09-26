@@ -260,3 +260,8 @@
 - **terminology**
   - *[noun]* 术语
   - scientific terminology. 科学术语
+
+# Day24
+- **outcome**
+  - *[noun]* 结果，后果、效果
+  - It's too early to predict the outcome of the meeding.

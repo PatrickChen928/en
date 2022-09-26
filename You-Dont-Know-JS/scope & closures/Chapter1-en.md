@@ -63,3 +63,5 @@ To summarize: two distinct actions are taken for a variable assignment: First, C
 
 ## Compiler Speak
 We need a little bit more compiler terminology to proceed further with understanding.
+
+When Engine executes the code that Compiler produced for step (2), it has to look-up the variable a to see if it has been declared, and this look-up is consulting Scope. But the type of look-up Engine performs affects the outcome of the look-up.

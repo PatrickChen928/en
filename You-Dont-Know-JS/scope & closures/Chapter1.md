@@ -102,3 +102,6 @@ To summarize: two distinct actions are taken for a varibale assignment: First, C
 **为了继续更深入地理解，我们需要一点儿更多的编译器术语。**  
 We need a little bit more compiler `terminology` to 
 `proceed` further with understanding.
+
+**当 引擎 执行 编译器 在第二步为它产生的代码时，它必须查询变量 a 来看它是否已经被声明过了，而且这个查询是咨询 作用域 的。但是 引擎 所实施的查询的类型会影响查询的结果。**
+When Engine executes the code that Compiler produced for step (2), it has to look-up the variable a to see if it has been declared, and this look-up is `consulting` Scope. But the type of look-up Engine performs affects the `outcome` of the look-up.
