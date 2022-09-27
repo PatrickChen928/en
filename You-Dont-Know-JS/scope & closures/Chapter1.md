@@ -105,3 +105,6 @@ We need a little bit more compiler `terminology` to
 
 **当 引擎 执行 编译器 在第二步为它产生的代码时，它必须查询变量 a 来看它是否已经被声明过了，而且这个查询是咨询 作用域 的。但是 引擎 所实施的查询的类型会影响查询的结果。**
 When Engine executes the code that Compiler produced for step (2), it has to look-up the variable a to see if it has been declared, and this look-up is `consulting` Scope. But the type of look-up Engine performs affects the `outcome` of the look-up.
+
+**在我们这个例子中，引擎 将会对变量 a 实施一个“LHS”查询。另一种类型的查询称为“RHS”。**  
+In our case, it is said that Engine would be performing an "LHS" look-up for the variable a. The other type of look-up is called "RHS".
