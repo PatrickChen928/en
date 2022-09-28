@@ -265,3 +265,9 @@
 - **outcome**
   - *[noun]* 结果，后果、效果
   - It's too early to predict the outcome of the meeding.
+
+# Day26
+- **stand for**
+  - *[phrase]* 代表、主张、容忍、忍受
+  - This party stands for low taxes and individual freedom. 这个政党支持低税率，主张个人自由。
+  - I wouldn't stand for that sort of behaviour from him, if I were you.

@@ -67,3 +67,6 @@ We need a little bit more compiler terminology to proceed further with understan
 When Engine executes the code that Compiler produced for step (2), it has to look-up the variable a to see if it has been declared, and this look-up is consulting Scope. But the type of look-up Engine performs affects the outcome of the look-up.
 
 In our case, it is said that Engine would be performing an "LHS" look-up for the variable a. The other type of look-up is called "RHS".
+
+I bet you can guess what the "L" and "R" mean. These terms stand for "Left-hand Side" and "Right-hand Side".
+

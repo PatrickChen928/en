@@ -108,3 +108,6 @@ When Engine executes the code that Compiler produced for step (2), it has to loo
 
 **在我们这个例子中，引擎 将会对变量 a 实施一个“LHS”查询。另一种类型的查询称为“RHS”。**  
 In our case, it is said that Engine would be performing an "LHS" look-up for the variable a. The other type of look-up is called "RHS".
+
+**我打赌你能猜出“L”和“R”是什么意思。这两个术语表示“Left-hand Side（左手边）”和“Right-hand Side（右手边）”**  
+I bet you can guess what the "L" and "R" mean. These terms stand for  "Lift-hand Side" and "Right-hand Side".
