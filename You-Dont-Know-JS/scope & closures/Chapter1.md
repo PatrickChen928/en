@@ -111,3 +111,9 @@ In our case, it is said that Engine would be performing an "LHS" look-up for the
 
 **我打赌你能猜出“L”和“R”是什么意思。这两个术语表示“Left-hand Side（左手边）”和“Right-hand Side（右手边）”**  
 I bet you can guess what the "L" and "R" mean. These terms stand for  "Lift-hand Side" and "Right-hand Side".
+
+**什么的……边？赋值操作的。**  
+Side... of what? Of an assignment operation.
+
+**换言之，当一个变量出现在赋值操作的左手边时，会进行 LHS 查询，当一个变量出现在赋值操作的右手边时，会进行 RHS 查询。**  
+In ohter words, an LHS look-up is done  when a variable appears on the left-hand side of an assignment operation, and an RHS look-up is done  when a variable appears on the right-hand side of an assignment operation.

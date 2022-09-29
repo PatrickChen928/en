@@ -271,3 +271,8 @@
   - *[phrase]* 代表、主张、容忍、忍受
   - This party stands for low taxes and individual freedom. 这个政党支持低税率，主张个人自由。
   - I wouldn't stand for that sort of behaviour from him, if I were you.
+
+# Day27
+- **in ohter words**
+  - *[phrase]* 换言之、换句话说
+  - He was economical with the truth, in ohter words, he was lying.

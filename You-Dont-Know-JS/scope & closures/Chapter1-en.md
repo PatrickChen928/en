@@ -70,3 +70,6 @@ In our case, it is said that Engine would be performing an "LHS" look-up for the
 
 I bet you can guess what the "L" and "R" mean. These terms stand for "Left-hand Side" and "Right-hand Side".
 
+Side... of what? Of an assignment operation.
+
+In other words, an LHS look-up is done when a variable appears on the left-hand side of an assignment operation, and an RHS look-up is done when a variable appears on the right-hand side of an assignment operation.
