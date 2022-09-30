@@ -276,3 +276,17 @@
 - **in ohter words**
   - *[phrase]* 换言之、换句话说
   - He was economical with the truth, in ohter words, he was lying.
+
+# Day28
+- **precise**
+  - *[adjective]* 精确的、准确的
+  - He caught me at the precise moment that I fainted.
+- **indistinguishable**
+  - *[adjective]* 难以区分的、难以辨别的
+  - In the upper pannel the two curves are indistinguishable.
+- **whereas**
+  - *[conjunction]* 尽管、但是、却
+  - He must be about 60, whereas his wife looks about 30.
+- **more accurately**
+  - *[phrase]* 更准确地说
+  - More accurately, you are 18.
