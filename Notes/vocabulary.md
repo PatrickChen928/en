@@ -290,3 +290,14 @@
 - **more accurately**
   - *[phrase]* 更准确地说
   - More accurately, you are 18.
+
+# Day29
+- **slightly**
+  - *[adverb]* 稍微、略微
+  - She's slightly taller than her sister.
+- **glib**
+  - *[adjective]* 花言巧语的、油嘴滑舌的、(说话)不诚恳的，未经思考的
+  - He's a glib, self-centred man.
+- **imnply**
+  - *[verb]* 暗示、按指; 必然包含、使成为必需
+  - Are you implying that I'm fat?

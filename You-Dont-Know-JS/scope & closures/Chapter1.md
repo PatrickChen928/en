@@ -111,12 +111,12 @@ In our case, it is said that Engine would be performing an "LHS" look-up for the
 
 **我打赌你能猜出“L”和“R”是什么意思。这两个术语表示“Left-hand Side（左手边）”和“Right-hand Side（右手边）”**  
 I bet you can guess what the "L" and "R" mean. These terms stand for  "Lift-hand Side" and "Right-hand Side".
-
-**什么的……边？赋值操作的。**  
-Side... of what? Of an assignment operation.
-
+hj **什么的……边？赋值操作的。** Side... of what? Of an assignment operation.hj
 **换言之，当一个变量出现在赋值操作的左手边时，会进行 LHS 查询，当一个变量出现在赋值操作的右手边时，会进行 RHS 查询。**  
 In ohter words, an LHS look-up is done  when a variable appears on the left-hand side of an assignment operation, and an RHS look-up is done  when a variable appears on the right-hand side of an assignment operation.
 
 **实际上，我们可以表述得更准确一点儿。对于我们的目的来说，一个 RHS 是难以察觉的，因为它简单地查询某个变量的值，而 LHS 查询是试着找到变量容器本身，以便它可以赋值。从这种意义上说，RHS 的含义实质上不是 真正的 “一个赋值的右手边”，更准确地说，它只是意味着“不是左手边”。**  
 Actually, let's be a little more `precise`. An RHS look-up is `indistinguishable`, for our purposes, from simply a look-up of the value of some varibale, `whereas` the LHS look-up is trying to find the variable container itself, so that it can assign. In this way, RHS dosen't really mean "right-hand side of an assignment" it just, more `accurately`, means "not left-hand side".
+
+**在这一番油腔滑调之后，你也可以认为“RHS”意味着“取得他/她的源（值）”，暗示着 RHS 的意思是“去取……的值”。**  
+Being `slightly glib` for a moment, you could also think "RHS" instead means "`retrieve` his/her soruce(value)", `implying` that RHS means "go get the value of...".
