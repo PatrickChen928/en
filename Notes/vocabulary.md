@@ -301,3 +301,9 @@
 - **imnply**
   - *[verb]* 暗示、按指; 必然包含、使成为必需
   - Are you implying that I'm fat?
+
+# Day30
+- **dig into**
+  - *[phrase]* 挖掘、压，推，（把…）压入（或推入）
+  - A stone was digging into my hell.
+  - She dug her fingernails into my wrist.

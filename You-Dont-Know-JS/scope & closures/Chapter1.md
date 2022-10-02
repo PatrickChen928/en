@@ -120,3 +120,6 @@ Actually, let's be a little more `precise`. An RHS look-up is `indistinguishable
 
 **在这一番油腔滑调之后，你也可以认为“RHS”意味着“取得他/她的源（值）”，暗示着 RHS 的意思是“去取……的值”。**  
 Being `slightly glib` for a moment, you could also think "RHS" instead means "`retrieve` his/her soruce(value)", `implying` that RHS means "go get the value of...".
+
+**让我们挖掘得更深一些。**  
+Let us dig into that deeper.
