@@ -32,9 +32,11 @@ For JavaScript, the compilation that occurs happens, in many cases, mere microse
 Let's just say, for simplicity's sake, that any snippet of JavaScript has to be compiled before (usually right before!) it's executed. So, the JS compiler will take the program `var a = 2;` and compile it first, and then be ready to execute it, usually right away.
 
 ## Understanding Scope
+
 The way we will approach learning about scope is to think of the process in terms of a conversation. But, who is having the conversation?
 
 ### The Cast
+
 Let's meet the cast of characters that interact to process the program `var a = 2;`, so we understand their conversations that we'll listen in on shortly:
 
 1. Engine: responsible for start-to-finish compilation and execution of our JavaScript program.
@@ -44,6 +46,7 @@ Let's meet the cast of characters that interact to process the program `var a = 
 For you to fully understand how JavaScript works, you need to begin to think like Engine (and friends) think, ask the questions they ask, and answer those questions the same.
 
 ## Back & Forth
+
 When you see the program `var a = 2;`, you most likely think of that as one statement. But that's not how our new friend Engine sees it. In fact, Engine sees two distinct statements, one which Compiler will handle during compilation, and one which Engine will handle during execution.
 
 So, let's break down how Engine and friends will approach the program `var a = 2;`.
@@ -54,7 +57,7 @@ A reasonable assumption would be that Compiler will produce code that could be s
 
 Compiler will instead proceed as:
 
-1. Encountering `var a`, Compiler asks Scope to see if a variable a already exists for that particular scope collection. If so, Compiler ignores this declaration and moves on. Otherwise, Compiler asks Scope to declare a new variable called a for that scope collection.  
+1. Encountering `var a`, Compiler asks Scope to see if a variable a already exists for that particular scope collection. If so, Compiler ignores this declaration and moves on. Otherwise, Compiler asks Scope to declare a new variable called a for that scope collection.
 2. Compiler then produces code for Engine to later execute, to handle the a = 2 assignment. The code Engine runs will first ask Scope if there is a variable called a accessible in the current scope collection. If so, Engine uses that variable. If not, Engine looks elsewhere (see nested Scope section below).
 
 If Engine eventually finds a variable, it assigns the value 2 to it. If not, Engine will raise its hand and yell out an error!
@@ -62,6 +65,7 @@ If Engine eventually finds a variable, it assigns the value 2 to it. If not, Eng
 To summarize: two distinct actions are taken for a variable assignment: First, Compiler declares a variable (if not previously declared in the current scope), and second, when executing, Engine looks up the variable in Scope and assigns to it, if found.
 
 ## Compiler Speak
+
 We need a little bit more compiler terminology to proceed further with understanding.
 
 When Engine executes the code that Compiler produced for step (2), it has to look-up the variable a to see if it has been declared, and this look-up is consulting Scope. But the type of look-up Engine performs affects the outcome of the look-up.
@@ -79,3 +83,11 @@ Actually, let's be a little more precise. An RHS look-up is indistinguishable, f
 Being slightly glib for a moment, you could also think "RHS" instead means "retrieve his/her source (value)", implying that RHS means "go get the value of...".
 
 Let's dig into that deeper.
+
+When I say:
+
+```ts
+console.log(a)
+```
+
+The reference to `a` is an RHS reference, because nothing is being assigned to `a` here. Instead, we're looking-up to retrieve the value of `a`, so that the value can be passed to `console.log(..)`.
