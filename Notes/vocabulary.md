@@ -335,3 +335,11 @@
   - _[phrase]_ 挖掘、压，推，（把…）压入（或推入）
   - A stone was digging into my hell.
   - She dug her fingernails into my wrist.
+
+# Day32
+
+- **contrast**
+  - _[noun]_ 差别、差异、对照、对比
+  - I like the contrast of the white trousers with the black jacket.
+  - There's marked contrast between his character and hers.
+  - By contrast.

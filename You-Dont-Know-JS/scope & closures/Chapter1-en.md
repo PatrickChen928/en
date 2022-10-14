@@ -91,3 +91,11 @@ console.log(a)
 ```
 
 The reference to `a` is an RHS reference, because nothing is being assigned to `a` here. Instead, we're looking-up to retrieve the value of `a`, so that the value can be passed to `console.log(..)`.
+
+By contrast:
+
+```js
+a = 2
+```
+
+The reference to `a` here is an LHS reference, because we don't actually care what the current value is, we simply want to find the variable as a target for the `= 2` assignment operation.

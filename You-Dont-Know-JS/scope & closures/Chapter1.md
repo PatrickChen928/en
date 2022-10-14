@@ -137,3 +137,13 @@ console.log(a)
 
 **这个指向 a 的引用是一个 RHS 引用，因为这里没有东西被赋值给 a。而是我们在查询 a 并取得它的值，这样这个值可以被传递进 console.log(..)。**  
 The reference to `a` is an RHS reference, because nothing is being assigned to `a` here. Instead, we are looking-up to retrieve the value of `a`, so that the value can be passed to `console.log(...)`.
+
+**作为对比：**  
+By contrast:
+
+```js
+a = 2
+```
+
+**这里指向 a 的引用是一个 LHS 引用，因为我们实际上不关心当前的值是什么，我们只是想找到这个变量，将它作为 = 2 赋值操作的目标。**  
+The reference to `a` here is an LHS reference, because we don't actually care what the current value is, we simply want to find the variable as a target for the `= 2` assignment operation.
